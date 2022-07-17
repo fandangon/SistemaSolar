@@ -1,0 +1,82 @@
+:root {
+    /* Variables */
+    --spacing-large: 6rem;
+    --spacing-medium: 2.4rem;
+    --spacing-small: 2rem;
+    --spacing-xsmall: 1rem;
+    /* Declaramos variables para Font-Family */
+    --font-principal:'Gantari',
+        sans-serif;
+    --font-title:'Roboto Mono',
+        monospace;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(25, 24, 55);
+}
+
+.navbar-nav a {
+    color: #fff;
+    font-family: var(--font-principal);
+}
+
+.navbar__hr {
+    color: rgb(26, 86, 165);
+}
+
+.card-title {
+    font-family: var(--font-title);
+    text-align: center;
+}
+
+.card-text {
+    font-family: var(--font-principal);
+    font-size: large;
+}
+
+.titulo__galeria {
+    font-family: var(--font-title);
+    color: #fff;
+
+}
+
+.texto__galeria {
+    font-family: var(--font-principal);
+    color: #fff;
+}
+
+#galeria .col-lg-4 {
+    margin: 0 !important;
+    padding: 25px
+}
+
+#galeria img {
+    width: 100%;
+    height: 250px;
+    border: solid 1px pink;
+}
+
+#galeria img:hover {
+    border: 5px solid #f7f7f7;
+}
+
+.footer__container p {
+    color: #fff;
+    font-family: var(--font-principal);
+}
+
+h2 {
+    color: black;
+    font-family: var(--font-principal);
+}
+
+h5 {
+    font-family: var(--font-principal);
+}
