@@ -2,3 +2,5 @@
 
 <p>Se creo repositorio, se sube a Github
 Se creo archivo .gitignore y readme.md</p>
+
+<p>Se modifica proyecto implementando SASS<p>

@@ -1,0 +1,60 @@
+@import 'scss/variables';
+@import 'scss/reset';
+
+body {
+    background-color: $background-color;
+}
+
+.navbar-nav {
+    a {
+        color: #fff;
+        font-family: $font-principal;
+    }
+    &__hr {
+        color: rgb(26, 86, 165);
+    }
+}
+
+.card-title {
+    font-family: $font-title;
+    text-align: center;
+
+    .card-text {
+        font-family: $font-principal;
+        font-size: large;
+    }
+}
+
+.titulo__galeria {
+    font-family: $font-title;
+    color: #fff;
+}
+
+.texto__galeria {
+    font-family: $font-principal;
+    color: #fff;
+}
+
+#galeria .col-lg-4 {
+    margin: 0 !important;
+    padding: 25px;
+}
+
+#galeria img {
+    width: 100%;
+    height: 250px;
+    border: solid 1px pink;
+
+    &:hover {
+        border: 5px solid #f7f7f7;
+    }
+}
+
+h2 {
+    color: #fff;
+    font-family: $font-principal;
+}
+
+h5 {
+    font-family: $font-principal;
+}
