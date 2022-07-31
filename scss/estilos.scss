@@ -1,5 +1,6 @@
-@import 'scss/variables';
-@import 'scss/reset';
+@import './misc/variables';
+@import './misc/reset';
+
 
 body {
     background-color: $background-color;
@@ -7,7 +8,7 @@ body {
 
 .navbar-nav {
     a {
-        color: #fff;
+        color: $text-color;
         font-family: $font-principal;
     }
     &__hr {
@@ -27,12 +28,12 @@ body {
 
 .titulo__galeria {
     font-family: $font-title;
-    color: #fff;
-}
+    color: $text-color;
 
-.texto__galeria {
-    font-family: $font-principal;
-    color: #fff;
+    .texto__galeria {
+        font-family: $font-principal;
+        color: $text-color;
+    }
 }
 
 #galeria .col-lg-4 {
@@ -40,21 +41,30 @@ body {
     padding: 25px;
 }
 
+@mixin propiedad-gal--img ($alto, $ancho, $borde) {
+    width: $ancho;
+    height: $alto;
+    border: $borde;
+}
+
 #galeria img {
-    width: 100%;
-    height: 250px;
-    border: solid 1px pink;
+    @include propiedad-gal--img(250px, 100%, solid 1px pink );
 
     &:hover {
-        border: 5px solid #f7f7f7;
+        border: 5px solid $border-color;
     }
 }
 
+.title__comentario {
+    text-align: center;
+}
+
 h2 {
-    color: #fff;
+    color: $text-color;
     font-family: $font-principal;
 }
 
 h5 {
-    font-family: $font-principal;
+    @extend h2;
 }
+  

@@ -25,10 +25,9 @@ body {
 .titulo__galeria {
   font-family: "Roboto Mono", monospace;
   color: #fff; }
-
-.texto__galeria {
-  font-family: "Gantari", sans-serif;
-  color: #fff; }
+  .titulo__galeria .texto__galeria {
+    font-family: "Gantari", sans-serif;
+    color: #fff; }
 
 #galeria .col-lg-4 {
   margin: 0 !important;
@@ -39,11 +38,11 @@ body {
   height: 250px;
   border: solid 1px pink; }
   #galeria img:hover {
-    border: 5px solid #f7f7f7; }
+    border: 5px solid #dcda65; }
 
-h2 {
+.title__comentario {
+  text-align: center; }
+
+h2, h5 {
   color: #fff;
-  font-family: "Gantari", sans-serif; }
-
-h5 {
   font-family: "Gantari", sans-serif; }
