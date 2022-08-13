@@ -1,0 +1,32 @@
+.titulo__galeria {
+    font-family: $font-title;
+    color: $text-color-default;
+
+    .texto__galeria {
+        font-family: $font-principal;
+        color: $text-color-default;
+    }
+}
+
+#galeria .col-lg-4 {
+    margin: 0 !important;
+    padding: 25px;
+}
+
+@mixin propiedad-gal--img ($alto, $ancho, $borde) {
+    width: $ancho;
+    height: $alto;
+    border: $borde;
+}
+
+#galeria img {
+    @include propiedad-gal--img(250px, 100%, solid 1px pink );
+
+    &:hover {
+        border: 5px solid $border-color;
+    }
+}
+
+.title__comentario {
+    text-align: center;
+}

@@ -1,0 +1,39 @@
+body {
+    background-color: $background-color;
+}
+
+.navbar-nav {
+    a {
+        color: $text-color-default;
+        font-family: $font-principal;
+    }
+    &__hr {
+        color: rgb(26, 86, 165);
+    }
+}
+
+.card {
+    background-color: $background-color;
+    padding: $space-medium;
+    margin: $space-medium;
+    border: none;
+
+    &-title {
+        font-family: $font-title;
+        text-align: center;
+    
+        &-text {
+            font-family: $font-principal;
+            font-size: large;
+        }
+    }
+}
+
+h2 {
+    color: $text-color-default;
+    font-family: $font-principal;
+}
+
+h5 {
+    @extend h2;
+}

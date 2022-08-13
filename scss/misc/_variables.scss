@@ -1,9 +1,20 @@
- /* Declaramos variables para Font-Family */
-    $font-principal:'Gantari',
-     sans-serif;
-    $font-title:'Roboto Mono',
-     monospace;
-     /* Variables color */
-     $background-color: rgb(25, 24, 55);
-     $text-color: #fff;
-     $border-color: rgb(220, 218, 101)
+      // FONT FAMILY
+      $font-principal:'Gantari' sans-serif;
+      $font-title:'Roboto Mono' monospace;
+
+      // COLORS
+      $background-color: #100815;
+      $text-color-default: #ffffff;
+      $border-color: #C7BDE9;
+
+      /* font Size */
+      $font-large: 5.2em;
+      $font-medium: 2.2em;
+      $font-small: 1.6em;
+      $font-xsmall: 1.4em;
+
+      /* Spacing */
+      $space-large: 6rem;
+      $space-medium: 2.4rem;
+      $space-small: 2rem;
+      $space-xsmall: 1rem;

@@ -1,33 +1,37 @@
-/* Declaramos variables para Font-Family */
-/* Variables color */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
+/* font Size */
+/* Spacing */
 body {
-  background-color: #191837; }
+  background-color: #100815; }
 
 .navbar-nav a {
-  color: #fff;
-  font-family: "Gantari", sans-serif; }
+  color: #ffffff;
+  font-family: "Gantari" sans-serif; }
 
 .navbar-nav__hr {
   color: #1a56a5; }
 
-.card-title {
-  font-family: "Roboto Mono", monospace;
-  text-align: center; }
-  .card-title .card-text {
-    font-family: "Gantari", sans-serif;
-    font-size: large; }
+.card {
+  background-color: #100815;
+  padding: 2.4rem;
+  margin: 2.4rem;
+  border: none; }
+  .card-title {
+    font-family: "Roboto Mono" monospace;
+    text-align: center; }
+    .card-title-text {
+      font-family: "Gantari" sans-serif;
+      font-size: large; }
+
+h2, h5 {
+  color: #ffffff;
+  font-family: "Gantari" sans-serif; }
 
 .titulo__galeria {
-  font-family: "Roboto Mono", monospace;
-  color: #fff; }
+  font-family: "Roboto Mono" monospace;
+  color: #ffffff; }
   .titulo__galeria .texto__galeria {
-    font-family: "Gantari", sans-serif;
-    color: #fff; }
+    font-family: "Gantari" sans-serif;
+    color: #ffffff; }
 
 #galeria .col-lg-4 {
   margin: 0 !important;
@@ -38,11 +42,12 @@ body {
   height: 250px;
   border: solid 1px pink; }
   #galeria img:hover {
-    border: 5px solid #dcda65; }
+    border: 5px solid #C7BDE9; }
 
 .title__comentario {
   text-align: center; }
 
-h2, h5 {
-  color: #fff;
-  font-family: "Gantari", sans-serif; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
