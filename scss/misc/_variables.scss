@@ -1,6 +1,10 @@
-      // FONT FAMILY
-      $font-principal:'Gantari' sans-serif;
-      $font-title:'Roboto Mono' monospace;
+      /* Fonts */
+      @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+      
+      /* Fonts Style */
+      $font-style-principal: 'Nunito', sans-serif;
+      $font-style-secundary:  'Mukta', sans-serif;
 
       // COLORS
       $background-color: #100815;

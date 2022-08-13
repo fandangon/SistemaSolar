@@ -1,3 +1,7 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
+/* Fonts Style */
 /* font Size */
 /* Spacing */
 body {
@@ -5,7 +9,7 @@ body {
 
 .navbar-nav a {
   color: #ffffff;
-  font-family: "Gantari" sans-serif; }
+  font-family: "Mukta", sans-serif; }
 
 .navbar-nav__hr {
   color: #1a56a5; }
@@ -15,23 +19,22 @@ body {
   padding: 2.4rem;
   margin: 2.4rem;
   border: none; }
+  .card-body {
+    background-color: #100815;
+    border: 1px solid #C7BDE9; }
   .card-title {
-    font-family: "Roboto Mono" monospace;
+    font-family: "Nunito", sans-serif;
+    color: #ffffff;
     text-align: center; }
-    .card-title-text {
-      font-family: "Gantari" sans-serif;
-      font-size: large; }
+  .card-text {
+    font-family: "Mukta", sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: large; }
 
 h2, h5 {
   color: #ffffff;
-  font-family: "Gantari" sans-serif; }
-
-.titulo__galeria {
-  font-family: "Roboto Mono" monospace;
-  color: #ffffff; }
-  .titulo__galeria .texto__galeria {
-    font-family: "Gantari" sans-serif;
-    color: #ffffff; }
+  font-family: "Mukta", sans-serif; }
 
 #galeria .col-lg-4 {
   margin: 0 !important;
@@ -40,9 +43,19 @@ h2, h5 {
 #galeria img {
   width: 100%;
   height: 250px;
-  border: solid 1px pink; }
+  border: solid 1px pink;
+  transition: all 0.5s ease; }
   #galeria img:hover {
-    border: 5px solid #C7BDE9; }
+    cursor: pointer;
+    border: 10px solid #C7BDE9; }
+
+.container .titulo__galeria {
+  font-family: "Nunito", sans-serif;
+  color: #ffffff; }
+
+.container .texto__galeria {
+  font-family: "Mukta", sans-serif;
+  color: #ffffff; }
 
 .title__comentario {
   text-align: center; }

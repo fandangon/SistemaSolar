@@ -5,7 +5,7 @@ body {
 .navbar-nav {
     a {
         color: $text-color-default;
-        font-family: $font-principal;
+        font-family: $font-style-secundary;
     }
     &__hr {
         color: rgb(26, 86, 165);
@@ -17,21 +17,27 @@ body {
     padding: $space-medium;
     margin: $space-medium;
     border: none;
-
-    &-title {
-        font-family: $font-title;
-        text-align: center;
     
-        &-text {
-            font-family: $font-principal;
-            font-size: large;
-        }
+    &-body {
+        background-color: $background-color;
+        border: 1px solid $border-color;
+    }
+    &-title {
+        font-family: $font-style-principal;
+        color: $text-color-default;
+        text-align: center;
+    }
+    &-text {
+        font-family: $font-style-secundary;
+        color: $text-color-default;
+        text-align: center;
+        font-size: large;
     }
 }
 
 h2 {
     color: $text-color-default;
-    font-family: $font-principal;
+    font-family: $font-style-secundary;
 }
 
 h5 {
