@@ -36,6 +36,27 @@ h2, h5 {
   color: #ffffff;
   font-family: "Mukta", sans-serif; }
 
+.container h1 {
+  color: #ffffff;
+  font-family: "Nunito", sans-serif;
+  font-size: 5.2em; }
+
+.card {
+  background-color: #6c65b8;
+  border: 1px solid #C7BDE9; }
+  .card img {
+    border: 1px solid lightcoral; }
+  .card h4 {
+    color: #ffffff;
+    font-family: "Nunito", sans-serif;
+    font-size: 2.2em; }
+  .card hr {
+    color: orange; }
+  .card__text {
+    color: lightcoral;
+    font-family: "Mukta", sans-serif;
+    font-size: 1.6em; }
+
 #galeria .col-lg-4 {
   margin: 0 !important;
   padding: 25px; }

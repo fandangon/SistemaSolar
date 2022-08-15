@@ -1,0 +1,31 @@
+.container h1 {
+    color: $text-color-default;
+    font-family: $font-style-principal;
+    font-size: $font-large;
+
+}
+
+.card {
+    background-color: rgb(108, 101, 184);
+    border: 1px solid $border-color;
+
+    img {
+        border: 1px solid lightcoral;        
+    }
+
+    h4 {
+        color: $text-color-default;
+        font-family: $font-style-principal;
+        font-size: $font-medium;
+    }
+
+    hr {
+        color: orange;
+    }
+
+    &__text {
+        color: lightcoral;
+        font-family: $font-style-secundary;
+        font-size: $font-small;
+    }
+}
