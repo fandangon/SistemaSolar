@@ -12,26 +12,27 @@ body {
     }
 }
 
-.card {
+.articulo {
     background-color: $background-color;
     padding: $space-medium;
     margin: $space-medium;
     border: none;
     
-    &-body {
+    .card-body {
         background-color: $background-color;
         border: 1px solid $border-color;
     }
-    &-title {
+
+    .card-title {
         font-family: $font-style-principal;
         color: $text-color-default;
         text-align: center;
     }
-    &-text {
+    
+    .card-text {
+        text-align: center;
         font-family: $font-style-secundary;
         color: $text-color-default;
-        text-align: center;
-        font-size: large;
     }
 }
 
