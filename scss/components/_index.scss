@@ -3,17 +3,15 @@ body {
 }
 
 .navbar {
-    background-color: $background-color-nav;
-    &-nav {
+    background-color: $background-color-nav; 
         a {
             color: $text-color-default;
             font-family: $font-style-secundary;
         }
-        &__hr {
+            &__hr {
             color: rgb(26, 86, 165);
         }
     }
-}
 
 .articulo {
     background-color: $background-color;
