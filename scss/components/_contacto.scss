@@ -1,10 +1,19 @@
-.title__comentario {
-    color: $text-color-default;
-    font-family: $font-style-principal;
-    
+.navbar {
+    background-color: $background-color-nav; 
 }
 
-.btn {
-    border: 2px solid black;
+.title__comentario {
+    font-family: $font-style-principal;
+}
+
+.btn-1 {
+    background-color: red;
+    border: 1px solid black;
+    color: #ffff;
+}
+
+.btn-2 {
+    background-color: blue;
+    border: 1px solid back;
     color: white;
 }

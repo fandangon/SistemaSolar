@@ -2,13 +2,16 @@ body {
     background-color: $background-color;
 }
 
-.navbar-nav {
-    a {
-        color: $text-color-default;
-        font-family: $font-style-secundary;
-    }
-    &__hr {
-        color: rgb(26, 86, 165);
+.navbar {
+    background-color: $background-color-nav;
+    &-nav {
+        a {
+            color: $text-color-default;
+            font-family: $font-style-secundary;
+        }
+        &__hr {
+            color: rgb(26, 86, 165);
+        }
     }
 }
 
