@@ -14,7 +14,7 @@
 }
 
 #galeria img {
-    @include propiedad-gal--img(250px, 100%, solid 1px pink );
+    @include propiedad-gal--img(250px, 100%, solid 1px rgb(76, 67, 49) );
     transition: width 2s, height 2s, transform 1s;
 
     &:hover {
@@ -24,12 +24,12 @@
         transform: rotate(180deg);
     }
 }
-.container {
 
-    .titulo__galeria {
+.container {
+        .titulo__galeria {
         font-family: $font-style-principal;
         color: $text-color-default;
-    }
+        }
         .texto__galeria {
             font-family: $font-style-secundary;
             color: $text-color-default;

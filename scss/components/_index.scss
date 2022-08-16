@@ -1,7 +1,7 @@
 body {
     background-color: $background-color;
 }
-
+/* Estilos NAVBAR */
 .navbar {
     background-color: $background-color-nav; 
         a {
@@ -12,7 +12,7 @@ body {
             color: rgb(26, 86, 165);
         }
     }
-
+/* Estilos CONTENIDO */
 .articulo {
     background-color: $background-color;
     padding: $space-medium;
